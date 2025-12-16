@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Cranel Studios: desarrollo web moderno, claro y funcional." />
+    <title>Cranel Studios | Desarrollo Web</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="logo" href="#top" aria-label="Ir al inicio">
+          <span class="logo-mark">CS</span>
+          <span class="logo-text">Cranel Studios</span>
+        </a>
+
+        <nav class="nav" aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="btn btn-primary" href="#contacto">Hablemos</a>
+          <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="container mobile-inner">
+          <a href="#inicio">Inicio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#contacto">Contacto</a>
+          <a class="btn btn-primary" href="#contacto">Cotizar ahora</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Estudio de desarrollo web</p>
+            <h1>Creamos páginas web modernas que se ven increíbles y convierten.</h1>
+            <p class="lead">
+              En <strong>Cranel Studios</strong> diseñamos y desarrollamos sitios web rápidos, claros y profesionales
+              para emprendedores y negocios que quieren presencia digital real.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#contacto">Cotizar ahora</a>
+              <a class="btn btn-outline" href="#servicios">Ver servicios</a>
+            </div>
+
+            <ul class="checks" aria-label="Beneficios principales">
+              <li>Diseño moderno</li>
+              <li>Responsive (celular y PC)</li>
+              <li>Entrega clara y acompañamiento</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="mock">
+              <div class="mock-top">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              </div>
+              <div class="mock-body">
+                <div class="mock-chip">UI limpia</div>
+                <div class="mock-card"></div>
+                <div class="mock-row">
+                  <div class="mock-mini"></div>
+                  <div class="mock-mini"></div>
+                </div>
+                <div class="mock-line"></div>
+                <div class="mock-line short"></div>
+              </div>
+            </div>
+            <div class="glow"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="section" id="servicios">
+        <div class="container">
+          <header class="section-head">
+            <h2>Servicios web para empezar con fuerza</h2>
+            <p>Soluciones claras y directas. Lo necesario para que tu negocio se vea profesional y genere confianza.</p>
+          </header>
+
+          <div class="cards">
+            <article class="card">
+              <div class="icon">⚡</div>
+              <h3>Desarrollo de páginas web</h3>
+              <p>Sitios informativos profesionales, rápidos y listos para captar clientes desde el primer día.</p>
+            </article>
+
+            <article class="card">
+              <div class="icon">🎯</div>
+              <h3>Landing pages</h3>
+              <p>Una sola página enfocada en un objetivo: convertir visitas en mensajes, reservas o ventas.</p>
+            </article>
+
+            <article class="card">
+              <div class="icon">✨</div>
+              <h3>Rediseño web</h3>
+              <p>Modernizamos tu sitio para que se vea actual, cargue mejor y comunique con claridad.</p>
+            </article>
+          </div>
+
+          <div class="section-foot">
+            <a class="link" href="#contacto">Quiero una recomendación →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why -->
+      <section class="section alt">
+        <div class="container two-col">
+          <div>
+            <h2>Tu web no debería ser un dolor de cabeza</h2>
+            <p>
+              Nos enfocamos en que tu página sea <strong>bonita</strong>, sí… pero sobre todo <strong>útil</strong>:
+              que explique bien lo que haces, sea fácil de usar y te ayude a crecer.
+            </p>
+
+            <ul class="bullets">
+              <li><strong>Comunicación clara:</strong> sin tecnicismos raros, vas a entender todo.</li>
+              <li><strong>Diseño con intención:</strong> estructura para convertir, no “decoración”.</li>
+              <li><strong>Rápida y responsive:</strong> se ve bien y carga rápido en cualquier dispositivo.</li>
+              <li><strong>Entrega ordenada:</strong> todo claro para seguir creciendo.</li>
+            </ul>
+          </div>
+
+          <aside class="highlight">
+            <h3>Cercanos, pero serios.</h3>
+            <p>Trabajamos contigo como equipo, con procesos claros y entregas responsables.</p>
+            <div class="pill-row">
+              <span class="pill">Dark • Modern</span>
+              <span class="pill">UX primero</span>
+              <span class="pill">Enfocado en resultados</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Process -->
+      <section class="section" id="proceso">
+        <div class="container">
+          <header class="section-head">
+            <h2>Así trabajamos contigo</h2>
+            <p>Transparente, ordenado y sin estrés. Paso a paso.</p>
+          </header>
+
+          <div class="steps">
+            <div class="step">
+              <span class="step-num">1</span>
+              <h3>Brief rápido</h3>
+              <p>Entendemos tu negocio y objetivo.</p>
+            </div>
+
+            <div class="step">
+              <span class="step-num">2</span>
+              <h3>Propuesta</h3>
+              <p>Estructura + idea visual clara.</p>
+            </div>
+
+            <div class="step">
+              <span class="step-num">3</span>
+              <h3>Desarrollo</h3>
+              <p>Construimos tu web con buenas prácticas.</p>
+            </div>
+
+            <div class="step">
+              <span class="step-num">4</span>
+              <h3>Revisión</h3>
+              <p>Ajustes contigo, sin complicaciones.</p>
+            </div>
+
+            <div class="step">
+              <span class="step-num">5</span>
+              <h3>Publicación</h3>
+              <p>La subimos y te guiamos con el siguiente paso.</p>
+            </div>
+          </div>
+
+          <p class="note">
+            El tiempo y alcance dependen del proyecto. Siempre lo dejamos claro antes de empezar.
+          </p>
+        </div>
+      </section>
+
+      <!-- CTA / Contact -->
+      <section class="cta" id="contacto">
+        <div class="container cta-inner">
+          <div>
+            <h2>¿Listo para lanzar una web que se vea pro?</h2>
+            <p>Cuéntanos qué necesitas y te respondemos con una idea clara de cómo hacerlo y qué incluye.</p>
+          </div>
+
+          <div class="cta-actions">
+            <!-- Cambia el número al tuyo (formato internacional) -->
+            <a class="btn btn-primary" target="_blank" rel="noopener" href="https://wa.me/593000000000?text=Hola%20Cranel%20Studios,%20quiero%20cotizar%20una%20p%C3%A1gina%20web.">
+              Escríbenos por WhatsApp
+            </a>
+            <a class="btn btn-outline" href="mailto:contacto@cranelstudios.com?subject=Cotizaci%C3%B3n%20web%20-%20Cranel%20Studios">
+              Enviar correo
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="footer-brand">Cranel Studios</div>
+          <p class="muted">Desarrollo web moderno, claro y funcional.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <span class="muted">© 2025 Cranel Studios. Todos los derechos reservados.</span>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
